@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300;500&family=Space+Mono&display=swap');
+
+body {
+  color: #140433;
+  font-family: 'Radio Canada', monospace;
+  font-size: 16px;
+  background: linear-gradient(90deg, #24104b 0%, #902AD7 50%, #ee5a95 100%);
+  text-align: center;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 70%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.btn-lightgrey {
+  background-color: rgba(175,175,175, 1);
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 10px 0 10px 0;;
+}
+
+.btn-lightgrey:hover {
+  background-color: #b16be3;
+  opacity: 1;
+}
+
+.socials-lightgrey {
+  color: rgba(175,175,175, 1);
+  font-size: 2em;
+  margin: 10px;
+}
+
+.socials-lightgrey:hover {
+  color:#b16be3;
+}
+
+
+.card-white {
+  margin-top: 15px;
+  background-color: white;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.07);
+  border-radius: 4px;
+  padding: 15px;
+}
+
+.inline-list {
+  display: inline-flex;
+  list-style: none;
+  padding-left: 0px;
+}
+
+#gh-shadow {
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.description {
+  padding: 0 15px;
+}
